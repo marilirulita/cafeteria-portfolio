@@ -1,9 +1,7 @@
 import Header from "@/components/Header"
 import Hero from "@/components/Hero"
 import Menu from "@/components/Menu"
-import Hours from "@/components/Hours"
-import Location from "@/components/Location"
-import ContactForm from "@/components/ContactForm"
+import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
 
 export default function Home() {
@@ -12,9 +10,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Menu />
-      <Hours />
-      <Location />
-      <ContactForm />
+      <Contact />
       <Footer />
     </main>
   );
