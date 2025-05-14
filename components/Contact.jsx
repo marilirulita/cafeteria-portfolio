@@ -4,8 +4,6 @@ const Contact = () => {
   return (
     <section className="bg-[#f6f1ec] py-16 px-4 border-t border-green-600">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
-        
-
         {/* Formulario */}
         <form
           action="https://formspree.io/f/xanobnwe"
@@ -48,16 +46,16 @@ const Contact = () => {
           <h3 className="text-2xl font-serif text-gray-800 mb-6">Visítanos</h3>
           <p className="mb-4">
             📍 <strong>Dirección:</strong><br />
-            Calle Ficticia #123, Centro<br />
+            San Quintin #2898, Amp. Lucerna<br />
             Mexicali, Baja California
           </p>
           <p className="mb-4">
             🕒 <strong>Horarios:</strong><br />
-            Lunes a Viernes: 8:00am - 8:00pm<br />
-            Sábados: 9:00am - 5:00pm
+            Lunes a Sabado: 8:00am - 7:00pm<br />
+            Domingo: 7:00am - 4:00pm
           </p>
           <p>
-            ☕ ¡Te esperamos con café recién hecho y pan dulce delicioso!
+            ☕ ¡Te esperamos con café recién hecho y desayunos deliciosos!
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 
 const Mapa = () => {
   const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
-  const direccion = "zacatecas 2373 Mexicali"; // puedes cambiar esto
+  const direccion = "San Quintin #2898 Mexicali"; // puedes cambiar esto
   const src = `https://www.google.com/maps/embed/v1/place?key=${apiKey}&q=${encodeURIComponent(direccion)}`;
 
   return (

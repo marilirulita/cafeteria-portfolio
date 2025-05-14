@@ -1,7 +1,7 @@
 
 const Menu = () => {
   return (
-    <section className="bg-[#f6f1ec] py-12 px-4">
+    <section id="menu" className="bg-[#f6f1ec] py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-serif text-center mb-8 text-gray-800 tracking-wider">
           Menú
