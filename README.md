@@ -1,40 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ☕ Cafetería AM
 
-## Getting Started
+¡Bienvenidos al sitio oficial de nuestra cafetería! Este proyecto es una landing page moderna y responsive desarrollada con React y TailwindCSS, pensada para brindar una excelente experiencia visual e informativa a nuestros clientes.
 
-First, run the development server:
+## 🖼️ Vista previa
+
+[Live Site](https://cafeteria-portfolio.vercel.app/)
+
+## 🚀 Tecnologías usadas
+
+- ⚛️ React
+
+- 💨 TailwindCSS
+
+- 🗺️ Google Maps Embed
+
+- 🖼️ SVG Icons (Simple Icons) & Lucide-React
+
+- 🎯 Animaciones con Framer Motion (opcional)
+
+## 📂 Estructura del proyecto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+├── public/
+│   └── images/
+│       └── logoCafeteria.jpg
+├── src/
+│   ├── components/
+│   │   ├── Hero.jsx
+│   │   ├── Menu.jsx
+│   │   ├── Ubicacion.jsx
+│   │   ├── Footer.jsx
+│   │   └── ScrollToTop.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── .env
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Instalación
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clona el repositorio:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  ```bash
+  git@github.com:marilirulita/cafeteria-portfolio.git
+  ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+2. Instala las dependencias:
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  ```bash
+  npm install
+  ```
+  
+3. Crea un archivo .env con tu clave de Google Maps:
 
-## Learn More
+  ```ini
+  VITE_GOOGLE_MAPS_API_KEY=tu_api_key
+  ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Ejecuta el servidor de desarrollo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+  ```bash
+  npm run dev
+  ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deploy on Vercel
+## 🌐 Características
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Diseño moderno y adaptable (mobile-first)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- Sección Hero con llamada a la acción
+
+- Menú visual con productos y precios
+
+- Mapa interactivo para mostrar la ubicación
+
+- Footer con redes sociales y datos de contacto
+
+- Botón flotante para volver al inicio
+
+## 📜 Licencia
+
+Este proyecto es de uso libre para fines educativos o comerciales, pero agradecemos la mención si decides reutilizarlo o extenderlo.
+
+### 🙌 Autor
+
+Desarrollado por [Mar Bautista](https://github.com/marilirulita/) — ¡Gracias por visitar nuestra cafetería!

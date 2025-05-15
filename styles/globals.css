@@ -1,9 +1,12 @@
 @import "tailwindcss";
 
-
 @media screen and (max-width: 768px) {
   .hero {
   width: 100%;
   min-height: 100vh;
+}
+
+.hero-text {
+  width: 100%;
 }
 }
