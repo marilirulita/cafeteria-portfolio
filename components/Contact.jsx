@@ -42,7 +42,7 @@ const Contact = () => {
         </form>
 
         {/* Información */}
-        <div className="flex flex-col justify-end">
+        <div className="flex flex-col justify-center">
           <h3 className="text-2xl font-serif text-gray-800 mb-6">Visítanos</h3>
           <p className="mb-4">
             📍 <strong>Dirección:</strong><br />

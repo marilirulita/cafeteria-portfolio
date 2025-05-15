@@ -15,7 +15,7 @@ const Footer = () => {
             <img
               src="/icons/facebook.svg"
               alt="Facebook"
-              className="w-5 h-5 transition hover:scale-110" 
+              className="w-7 h-7 transition hover:scale-110" 
             />
           </a>
 
@@ -28,7 +28,7 @@ const Footer = () => {
             <img
               src="/icons/instagram.svg"
               alt="Instagram"
-              className="w-5 h-5 transition hover:scale-110" 
+              className="w-7 h-7 transition hover:scale-110" 
             />
           </a>
 
@@ -39,7 +39,7 @@ const Footer = () => {
             <img
               src="/icons/mail.svg"
               alt="Correo"
-              className="w-5 h-5 transition hover:scale-110" 
+              className="w-7 h-7 transition hover:scale-110" 
             />
           </a>
         </div>

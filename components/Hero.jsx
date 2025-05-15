@@ -4,16 +4,16 @@ const Hero = () => {
   return (
      <section className="relative md:bg-gradient-to-r from-[#d9c4b1] to-white  bg-[url('/images/cafeteriaImage.jpg')] bg-cover bg-center min-h-screen flex items-center justify-center text-center">
       
-      <div className="hero max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-end md:justify-between gap-10 bg-gray-200/70 md:bg-transparent">
+      <div className="hero max-w-6xl mx-auto px-0 py-0 md:px-6 md:py-16 flex flex-col md:flex-row items-center justify-end md:justify-between gap-10 bg-gray-200/70 md:bg-transparent">
         
         {/* Texto animado */}
         <motion.div
-          className="text-center md:text-left space-y-6 bg-amber-100/70 md:bg-transparent p-3 radius"
+          className="hero-text text-center md:text-left space-y-6 bg-[#e3d1bf]/70 md:bg-transparent p-3 radius"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl md:text-6xl font-serif font-bold text-[#3a2f2a]">
+          <h1 className="hidden md:block md:text-6xl font-serif font-bold text-[#3a2f2a]">
             Cafetería AM
           </h1>
           <p className="text-xl text-[#5c4b43] ">
